@@ -14,3 +14,9 @@ def print_triangle(triangle):
 
 if __name__ == "__main__":
     print_triangle(pascal_triangle(5))
+    print("\n")
+    print_triangle(pascal_triangle(0))  # Edge case: should print nothing (empty list)
+    print("\n")
+    print_triangle(pascal_triangle(1))  # Edge case: should print just [[1]]
+    print("\n")
+    print_triangle(pascal_triangle(10))  # Test larger n
